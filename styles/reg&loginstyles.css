@@ -1,0 +1,93 @@
+/*Login Page & Register Page*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #e4e9f7;
+}
+.llogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .llogo img {
+    max-width: 17%; 
+    max-height: 17%; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: auto; 
+    height: auto; 
+    margin: 10px;
+  }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 40px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 350px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #e4e9f7;
+    border: 1px solid #e4e9f7;
+    outline: none;
+}
+.btn{
+    display: inline-block;
+    height: 40px;
+    width: 60%;
+    background: #04AA6D;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-left: 55px;
+    margin-top: 10px;
+    padding: px 10px;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
